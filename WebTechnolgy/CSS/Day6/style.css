@@ -1,0 +1,43 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    border: 2px solid red;
+    transition-property: all;
+    transition-duration: 3s;
+    transition-timing-function: cubic-bezier(0.34, 1.29, 0.36, -0.07);
+
+    /* transform: scale(1.5);
+    transition-property: background-color,border-radius,transform; */
+
+}
+
+.box1:hover{
+    transform: scale(0.9);
+    background-color: aquamarine;
+    border-radius: 50%;
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    border: 2px solid green;
+    transition-property: all;
+    transition-duration: 4s;
+    transition-timing-function: linear;
+
+}
+
+.box2:hover{
+    transform: rotate(45deg);
+}
+
+.box3{
+    width: 200px;
+    height: 200px;
+    border: 2px solid purple;
+
+}
+
+.box3:hover{
+    transform: translate(150px,150px);
+}

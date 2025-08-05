@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reg Form</title>
+</head>
+<body>
+    <h1>Reg Form</h1>
+    <form action="./Welcom.html" method="post">
+
+        <label for="fname">First Name</label><br>
+        <input type="text" name="fname" id="f_name" required><br><br>
+
+        
+        <label for="lname">Last Name</label><br>
+        <input type="text" name="l_name" id="lname" required><br><br>
+        
+        <label for="Email">Email</label><br>
+        <input type="email" name="email" id="email" required><br><br>
+
+        
+        <label for="pass">Password</label><br>
+        <input type="password" name="pass" id="pass" required minlength="6" maxlength="12"><br><br>
+
+        
+        <label for="date">DOB</label><br>
+        <input type="date" name="date" id="date"  min="2000-01-01" max="2020-12-31"><br><br>
+
+        
+        <label for="age">Age</label><br>
+        <input type="text" name="fname" id="fname" min="18" max="65"><br><br>
+
+        <p>Select UR Gender</p>
+        <input type="radio" name="gender" id="male" value="male"> <label for="male">Male</label>
+        <input type="radio" name="gender" id="female" value="female"> <label for="female">Female</label>
+        <input type="radio" name="gender" id="other" value="other"> <label for="other">Other</label><br><br>
+
+        <p>Are u  Citizen of India</p>
+        <input type="radio" name="isCitizen" id="yes" value="true" required><label for="yes">YES</label>
+        <input type="radio" name="isCitizen" id="no" value="false" required><label for="no">NO</label><br><br>
+
+        <p>Choose Technology</p>
+        <input type="checkbox" name="tech1" id="html" value="html"><label for="HTML">HTML</label>
+        <input type="checkbox" name="tech2" id="css" value="css"><label for="HTML">CSS</label>
+        <input type="checkbox" name="tech3" id="js" value="js"><label for="HTML">JS</label><br><br>
+        
+        <label for="desc">Provide your comments</label><br>
+        <textarea name="description" id="desc"></textarea><br><br>
+
+        <label for="profile">Upload your profile</label><br>
+        <input type="file" id="profile" name="profile_picture" accept="image/png" multiple><br><br>
+
+        <input type="checkbox" id="terms" required> <label for="terms">I agree to terms and conditions</label><br><br>
+
+        <label for="country">Select country</label><br>
+        <select name="country" id="country" required>
+            <option value="India">India</option>
+            <option value="usa">USA</option>
+            <option value="Pakistan">Pakistan</option>
+            <option value="dubai">Dubai</option>
+        </select><br><br>
+        
+        <button type="submit">Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+    
+</body>
+</html>

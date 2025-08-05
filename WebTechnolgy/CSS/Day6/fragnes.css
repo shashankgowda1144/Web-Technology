@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+    background-color:beige;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#main_container{
+    width: 50%;
+    height: 500px;
+    background-color: white;
+    display: flex;
+    border-radius: 25px;
+    box-shadow: 0px 0px 5px 5px rgb(207, 206, 206);
+}
+
+#main_container > .left{
+    width: 50%;
+    height: 100%;
+    background-color: red;
+    border-radius: 25px 0 0 25px;
+}
+
+.left > img{
+    width: 100%;
+    height: 100%;
+    border-radius: inherit;
+}
+
+#main_container > .right{
+    width: 50%;
+    height: 100%;
+    padding: 5%;
+    border-radius:25px;
+}
+
+.right > .perfume{
+    color: gray;
+    letter-spacing: 5px;
+    margin-bottom: 25px;
+}
+
+.right > h1{
+    font-size: 45px;
+    margin-bottom: 25px;
+}
+
+.right > .desc{
+    color: gray;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.right > .price_cont{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 25px;
+}
+
+.right > .price_cont > p:first-child{
+    color: green;
+    font-size: 50px;
+    font-weight: 600;
+}
+
+.right > .price_cont > p:last-child{
+    color: gray;
+    text-decoration: line-through;
+    font-size: 30px;
+}
+
+.right > button{
+    width: 100%;
+    height: 50px;
+    background-color: green;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+}

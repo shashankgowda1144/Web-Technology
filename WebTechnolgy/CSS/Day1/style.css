@@ -1,0 +1,35 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1{
+    color: chocolate;
+}
+
+.heading{
+    color:rgb(191, 168, 213);
+}
+
+#head{
+    color: rgb(154, 234, 5);
+}
+
+h1[class="heading"]{
+    color: cadetblue;
+}
+
+input[type="email"]{
+    border-color: rgb(82, 222, 61);
+}
+
+input[type="number"]{
+    border-color: rgb(69, 204, 211);
+}
+
+input[type="text"]{
+    border-color: rgb(22, 243, 251);
+}
+
+p, h3,#btn{
+    color: brown;
+}

@@ -1,0 +1,26 @@
+.box1{
+    width: 200px;
+    height: 200px;
+    border: 1px solid red; 
+    padding: 35px;
+    margin: 25px;
+    box-sizing: content-box;
+
+    border-radius: 25px;
+    border-width: 1px;
+    border-style: solid;
+    font-size: small;
+   
+}
+
+.box2{
+    width: 200px;
+    height: 200px;
+    border: 1px solid green;
+    padding: 35px;
+    margin: 25px;
+    box-sizing: border-box;
+
+    border-radius: 50%;
+
+}

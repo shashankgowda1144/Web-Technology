@@ -1,0 +1,50 @@
+.btn1:hover{
+    background-color: red;
+    color: wheat;
+    cursor: pointer;
+}
+
+button:disabled{
+    cursor: not-allowed;
+}
+
+.btn1:active{
+    background-color: blue;
+}
+
+a:link{
+    color: aqua;
+}
+
+a:visited{
+    color: green;
+}
+
+input:focus{
+    outline: none;
+}
+
+input[type="text"]:focus{
+    border-color: green;
+    border-style: solid;
+}
+li:nth-child(even){
+    color: purple;
+}
+
+.para::first-line{
+    content: "*";
+    color: rgb(238, 167, 167);
+}
+
+.para{
+    font-size: 15px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 600;
+    font-style: italic;
+
+    text-align: justify;
+    text-transform: capitalize;
+    letter-spacing: 1px;
+    word-spacing: 10px;
+}
